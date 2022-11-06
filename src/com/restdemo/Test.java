@@ -9,6 +9,8 @@ import javax.ws.rs.Produces;
 
 @Path("/rs")
 public class Test {
+	
+	
 	@Path("/show")
 	@GET
 	@Produces(javax.ws.rs.core.MediaType.TEXT_HTML)
@@ -16,6 +18,15 @@ public class Test {
 	{
 		return "hello World";
 	}
+	
+	@Path("/display")
+	@GET
+	@Produces(javax.ws.rs.core.MediaType.TEXT_HTML)
+	public String display()
+	{
+		return "sky is the limit";
+	}
+	
 	
 	
 	

@@ -27,7 +27,13 @@ public class Test {
 		return "sky is the limit";
 	}
 	
-	
+	@Path("/delete")
+	@GET
+	@Produces(javax.ws.rs.core.MediaType.TEXT_HTML)
+	public String delete()
+	{
+		return "deleted";
+	}
 	
 	
 }

@@ -35,5 +35,14 @@ public class Test {
 		return "deleted";
 	}
 	
+	@Path("/update")
+	@GET
+	@Produces(javax.ws.rs.core.MediaType.TEXT_HTML)
+	public String update()
+	{
+		return "updated";
+	}
+	
+	
 	
 }

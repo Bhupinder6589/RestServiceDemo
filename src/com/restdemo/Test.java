@@ -24,7 +24,7 @@ public class Test {
 	@Produces(javax.ws.rs.core.MediaType.TEXT_HTML)
 	public String display()
 	{
-		return "sky is the limit";
+		return "we power the world of work";
 	}
 	
 	@Path("/delete")
